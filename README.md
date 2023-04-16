@@ -35,6 +35,9 @@ WHERE [Id] = '666'
 ![Home](https://user-images.githubusercontent.com/96929412/232344928-f3eca6d6-b5bd-4793-8f8a-f50e93597381.PNG)
 ![Login](https://user-images.githubusercontent.com/96929412/232344932-a5c02573-cd0a-45e6-927e-91f43c76f961.PNG)
 ![Job](https://user-images.githubusercontent.com/96929412/232344936-100bf75c-327a-457c-89e6-5c34b5d41cda.PNG)
-
+![Candidate](https://user-images.githubusercontent.com/96929412/232345089-4660f6df-a4da-45e5-a362-85e858f5c48b.PNG)
+![AdminPanel](https://user-images.githubusercontent.com/96929412/232345090-aa56c03d-30b5-4fab-9773-b9f73073a462.PNG)
+![Profile](https://user-images.githubusercontent.com/96929412/232345091-3e45ed73-c98b-4edb-90d4-e56762de98a5.PNG)
+![PostJob](https://user-images.githubusercontent.com/96929412/232345092-34ecbf17-a958-4f1f-804d-ab78b50a0ce2.PNG)
 
 
