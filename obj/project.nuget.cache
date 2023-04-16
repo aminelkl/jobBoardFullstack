@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JwexuBcmfnAX9oteaspT6UXi/thJKIWo6DhstqyrKUB3ZjCyAGre7PMH0f2Wzv2LDxPAqSAle1b/wNmlXP23xw==",
+  "dgSpecHash": "HKrShnMKKQWzxV7UUgvCmB5ZzB20cRlsuurlieFijgjoZR5++v9/cNSdztpAHrX+nP9toB2m4I1JLfxa35IPog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\amine\\Desktop\\Job-Board\\Job-Board.csproj",
+  "projectFilePath": "C:\\Users\\amine\\Desktop\\jobBoardFullstack\\Job-Board.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\amine\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\amine\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
