@@ -1,44 +1,34 @@
-# Job Board
 
-Job Board is a Web App built with Asp.net Core to open a new opportunity for developers to find jobs.
+# JobBoard full stack web application
 
-### Features:
-- A complete authentication system using Microsoft Identity
-    - Login, Register, Reset Password and Email Confirmation
-- User can view Jobs Details
-- User can search for a job by Title, Category and/or Job Nature 
-- Authenticated Users can update their profile information 
 
-#### Admin:
-- Accept or remove Pending Posts
-- Create new Categories
 
-#### Recruiter:
-- Post a new job (Defualt status is pending)
-- Delete his posted jobs
-- View the information of job Candidates
-- View his Posted Jobs
+```
+ASP.NET 5.0 MVC | Entity Framework | Microsoft Identity | SQLServer
 
-#### Developer:
-- Can apply for any job.
-- View his Applied Jobs
+| As an unidentified user, you can browse through job offers and search for available jobs by keyword and type.
 
-<hr>
+| As an identified user, you can update your personal information, submit job applications, and view the history of all your applications.
 
-### API Endponts:
-#### Jobs
-- [GET] /API/Job
-- [GET] /API/Job/{Id}
+| As a company, you can post job openings, view who has applied, and delete jobs.
 
-<hr>
+| As an administrator, you can approve pending job offers, add categories, and view the number of posted jobs and active users.
 
-### Technologies:
-- ASP.NET Core
-- Entity Framework Core
-- Microsoft Identity
-- JQuery
-- AJAX
-- Web API
-- Microsoft SQL Server
-- Mail Service (MailJet)
+
+Applicants and companies can register, while the administrator account must be hardcoded directly into the database.
+
+How to hardcode an administrator directly in the database?
+
+1. To add an admin to the user table, you will need to paste the hashed password
+using Microsoft.AspNetCore.Identity;
+var passwordHasher = new PasswordHasher<string>();
+string password = "myPassword123";
+string hashedPassword = passwordHasher.HashPassword(null, password);
+Console.WriteLine(hashedPassword);
+
+2. Add a security stamp.
+UPDATE [dbo].[AspNetUsers]
+SET [SecurityStamp] = NEWID()
+WHERE [Id] = '666'
+```
 
