@@ -32,3 +32,9 @@ SET [SecurityStamp] = NEWID()
 WHERE [Id] = '666'
 ```
 
+![Home](https://user-images.githubusercontent.com/96929412/232344928-f3eca6d6-b5bd-4793-8f8a-f50e93597381.PNG)
+![Login](https://user-images.githubusercontent.com/96929412/232344932-a5c02573-cd0a-45e6-927e-91f43c76f961.PNG)
+![Job](https://user-images.githubusercontent.com/96929412/232344936-100bf75c-327a-457c-89e6-5c34b5d41cda.PNG)
+
+
+
