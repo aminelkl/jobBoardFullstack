@@ -17,6 +17,12 @@ ASP.NET 5.0 MVC | Entity Framework | Microsoft Identity | SQLServer
 
 Applicants and companies can register, while the administrator account must be hardcoded directly into the database.
 
+How to deploy the project in your local computer?
+
+1. You need to have Visual Studio and ASP.NET 5.0 installed on your local machine.
+2. Modify the connection string in the appsettings.json file.
+3. Use the following two commands in your package manager: "migrate-database <nameOfMigration>" and "update-database". (This will create the tables)
+
 How to hardcode an administrator directly in the database?
 
 1. To add an admin to the user table, you will need to paste the hashed password
